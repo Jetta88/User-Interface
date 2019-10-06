@@ -54,28 +54,32 @@ table {
 
 html, body {
     height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Quattrocento Sans', sans-serif;
+	background-color: #e5e5e5;
+	color: #23374d;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-	
+    font-family: 'Patua One', cursive;
+	letter-spacing: 1px;
+	color: #23374d;
 }
 
 /* Your code starts here! */
 
 /* Navigation Content */
 .navigation {
-	color: grey;
+	color: white;
 	width: 75%;
 	margin: 0 auto;
+	background-color: #1089ff;
 }
 
 .navigation li {
 	display: inline-block;
 	margin: 2%;
 }
+
 
 #circlelogo {
 	display: inline-block;
@@ -88,8 +92,12 @@ h1, h2, h3, h4, h5 {
 /* Jumbotron Content */
 .jumbotron {
 	width: 75%;
-	margin: 0 auto;
-	
+	display: inline-block;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 12.5%;
+
+
 }
 
 .jumbotron h1 {
@@ -100,19 +108,17 @@ h1, h2, h3, h4, h5 {
 .jumbotron-content {
 	display: inline-block;
 	width: 35%;
-	/* margin: 2%; */
-	
+
 }
 
 .jumbotron-content .btn {
 	margin-left: 38%;
-	
-	
+
 }
 
   .header-img {
 	margin-left: 10%px;
-	
+
 }
 
 #title {
@@ -124,28 +130,29 @@ h1, h2, h3, h4, h5 {
 
 /* Contents Content (lol) */
 .top-content {
-	
+
 	margin: 0 auto;
 	width: 75%;
+
   }
 
   .bottom-content {
-	
+
 	margin: 0 auto;
 	width: 75%;
   }
   .content {
-	width: 37.5%;
+	width: 48.5%;
 	display: inline-block;
-	margin: 20px;
-	
+	margin-bottom: 2%;
+
   }
 
   .section2 {
 	width: 30%;
   	display: inline-block;
   	margin: 1%;
-  	
+	margin-bottom: 2%;
   }
 /* ------------------------------------------------- */
 
@@ -172,13 +179,13 @@ h1, h2, h3, h4, h5 {
 	width: 75%;
 	display: inline-block;
 	margin-left: 12.5%;
-	
+
 }
 
 .contact {
 	width: 75%;
 	margin: 0 auto;
-	
+
 }
 
 .linebreak {
@@ -190,4 +197,5 @@ h1, h2, h3, h4, h5 {
 
 footer {
 	text-align: center;
+	margin-top: 2%;
 }
