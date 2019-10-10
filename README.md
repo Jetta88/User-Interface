@@ -1,6 +1,6 @@
 # User Interface Project: Great Idea Web Page
 
-Dennis Saxton
+Dennis Saxton 10/10/2019
 
 Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.
 
